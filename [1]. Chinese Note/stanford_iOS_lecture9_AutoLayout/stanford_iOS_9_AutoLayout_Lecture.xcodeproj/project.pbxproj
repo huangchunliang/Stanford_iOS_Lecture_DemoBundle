@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B082601F1D2E021500133F8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B082601E1D2E021500133F8F /* main.m */; };
+		B08260221D2E021500133F8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08260211D2E021500133F8F /* AppDelegate.m */; };
+		B08260251D2E021500133F8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08260241D2E021500133F8F /* ViewController.m */; };
+		B08260281D2E021500133F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08260261D2E021500133F8F /* Main.storyboard */; };
+		B082602A1D2E021500133F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08260291D2E021500133F8F /* Assets.xcassets */; };
+		B082602D1D2E021500133F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B082602B1D2E021500133F8F /* LaunchScreen.storyboard */; };
+		B08260381D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08260371D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.m */; };
+		B08260431D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08260421D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08260341D2E021600133F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08260121D2E021500133F8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08260191D2E021500133F8F;
+			remoteInfo = stanford_iOS_9_AutoLayout_Lecture;
+		};
+		B082603F1D2E021600133F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08260121D2E021500133F8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08260191D2E021500133F8F;
+			remoteInfo = stanford_iOS_9_AutoLayout_Lecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B082601A1D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanford_iOS_9_AutoLayout_Lecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B082601E1D2E021500133F8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B08260201D2E021500133F8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B08260211D2E021500133F8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B08260231D2E021500133F8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B08260241D2E021500133F8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B08260271D2E021500133F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B08260291D2E021500133F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B082602C1D2E021500133F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B082602E1D2E021500133F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08260331D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stanford_iOS_9_AutoLayout_LectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08260371D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stanford_iOS_9_AutoLayout_LectureTests.m; sourceTree = "<group>"; };
+		B08260391D2E021600133F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B082603E1D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stanford_iOS_9_AutoLayout_LectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08260421D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stanford_iOS_9_AutoLayout_LectureUITests.m; sourceTree = "<group>"; };
+		B08260441D2E021600133F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B08260171D2E021500133F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08260301D2E021600133F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082603B1D2E021600133F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B08260111D2E021500133F8F = {
+			isa = PBXGroup;
+			children = (
+				B082601C1D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture */,
+				B08260361D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests */,
+				B08260411D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests */,
+				B082601B1D2E021500133F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B082601B1D2E021500133F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B082601A1D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture.app */,
+				B08260331D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.xctest */,
+				B082603E1D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B082601C1D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture */ = {
+			isa = PBXGroup;
+			children = (
+				B08260201D2E021500133F8F /* AppDelegate.h */,
+				B08260211D2E021500133F8F /* AppDelegate.m */,
+				B08260231D2E021500133F8F /* ViewController.h */,
+				B08260241D2E021500133F8F /* ViewController.m */,
+				B08260261D2E021500133F8F /* Main.storyboard */,
+				B08260291D2E021500133F8F /* Assets.xcassets */,
+				B082602B1D2E021500133F8F /* LaunchScreen.storyboard */,
+				B082602E1D2E021500133F8F /* Info.plist */,
+				B082601D1D2E021500133F8F /* Supporting Files */,
+			);
+			path = stanford_iOS_9_AutoLayout_Lecture;
+			sourceTree = "<group>";
+		};
+		B082601D1D2E021500133F8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B082601E1D2E021500133F8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B08260361D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				B08260371D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.m */,
+				B08260391D2E021600133F8F /* Info.plist */,
+			);
+			path = stanford_iOS_9_AutoLayout_LectureTests;
+			sourceTree = "<group>";
+		};
+		B08260411D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B08260421D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.m */,
+				B08260441D2E021600133F8F /* Info.plist */,
+			);
+			path = stanford_iOS_9_AutoLayout_LectureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B08260191D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08260471D2E021600133F8F /* Build configuration list for PBXNativeTarget "stanford_iOS_9_AutoLayout_Lecture" */;
+			buildPhases = (
+				B08260161D2E021500133F8F /* Sources */,
+				B08260171D2E021500133F8F /* Frameworks */,
+				B08260181D2E021500133F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stanford_iOS_9_AutoLayout_Lecture;
+			productName = stanford_iOS_9_AutoLayout_Lecture;
+			productReference = B082601A1D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08260321D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082604A1D2E021600133F8F /* Build configuration list for PBXNativeTarget "stanford_iOS_9_AutoLayout_LectureTests" */;
+			buildPhases = (
+				B082602F1D2E021600133F8F /* Sources */,
+				B08260301D2E021600133F8F /* Frameworks */,
+				B08260311D2E021600133F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08260351D2E021600133F8F /* PBXTargetDependency */,
+			);
+			name = stanford_iOS_9_AutoLayout_LectureTests;
+			productName = stanford_iOS_9_AutoLayout_LectureTests;
+			productReference = B08260331D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B082603D1D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082604D1D2E021600133F8F /* Build configuration list for PBXNativeTarget "stanford_iOS_9_AutoLayout_LectureUITests" */;
+			buildPhases = (
+				B082603A1D2E021600133F8F /* Sources */,
+				B082603B1D2E021600133F8F /* Frameworks */,
+				B082603C1D2E021600133F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08260401D2E021600133F8F /* PBXTargetDependency */,
+			);
+			name = stanford_iOS_9_AutoLayout_LectureUITests;
+			productName = stanford_iOS_9_AutoLayout_LectureUITests;
+			productReference = B082603E1D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B08260121D2E021500133F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Shijie;
+				TargetAttributes = {
+					B08260191D2E021500133F8F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B08260321D2E021600133F8F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B08260191D2E021500133F8F;
+					};
+					B082603D1D2E021600133F8F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B08260191D2E021500133F8F;
+					};
+				};
+			};
+			buildConfigurationList = B08260151D2E021500133F8F /* Build configuration list for PBXProject "stanford_iOS_9_AutoLayout_Lecture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B08260111D2E021500133F8F;
+			productRefGroup = B082601B1D2E021500133F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B08260191D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture */,
+				B08260321D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests */,
+				B082603D1D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B08260181D2E021500133F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082602D1D2E021500133F8F /* LaunchScreen.storyboard in Resources */,
+				B082602A1D2E021500133F8F /* Assets.xcassets in Resources */,
+				B08260281D2E021500133F8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08260311D2E021600133F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082603C1D2E021600133F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B08260161D2E021500133F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08260251D2E021500133F8F /* ViewController.m in Sources */,
+				B08260221D2E021500133F8F /* AppDelegate.m in Sources */,
+				B082601F1D2E021500133F8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082602F1D2E021600133F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08260381D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082603A1D2E021600133F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08260431D2E021600133F8F /* stanford_iOS_9_AutoLayout_LectureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08260351D2E021600133F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08260191D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture */;
+			targetProxy = B08260341D2E021600133F8F /* PBXContainerItemProxy */;
+		};
+		B08260401D2E021600133F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08260191D2E021500133F8F /* stanford_iOS_9_AutoLayout_Lecture */;
+			targetProxy = B082603F1D2E021600133F8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B08260261D2E021500133F8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08260271D2E021500133F8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B082602B1D2E021500133F8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B082602C1D2E021500133F8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B08260451D2E021600133F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B08260461D2E021600133F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08260481D2E021600133F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stanford_iOS_9_AutoLayout_Lecture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.stanford-iOS-9-AutoLayout-Lecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B08260491D2E021600133F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stanford_iOS_9_AutoLayout_Lecture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.stanford-iOS-9-AutoLayout-Lecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B082604B1D2E021600133F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stanford_iOS_9_AutoLayout_LectureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.stanford-iOS-9-AutoLayout-LectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stanford_iOS_9_AutoLayout_Lecture.app/stanford_iOS_9_AutoLayout_Lecture";
+			};
+			name = Debug;
+		};
+		B082604C1D2E021600133F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stanford_iOS_9_AutoLayout_LectureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.stanford-iOS-9-AutoLayout-LectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stanford_iOS_9_AutoLayout_Lecture.app/stanford_iOS_9_AutoLayout_Lecture";
+			};
+			name = Release;
+		};
+		B082604E1D2E021600133F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = stanford_iOS_9_AutoLayout_LectureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.stanford-iOS-9-AutoLayout-LectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stanford_iOS_9_AutoLayout_Lecture;
+			};
+			name = Debug;
+		};
+		B082604F1D2E021600133F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = stanford_iOS_9_AutoLayout_LectureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SJ.stanford-iOS-9-AutoLayout-LectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stanford_iOS_9_AutoLayout_Lecture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B08260151D2E021500133F8F /* Build configuration list for PBXProject "stanford_iOS_9_AutoLayout_Lecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08260451D2E021600133F8F /* Debug */,
+				B08260461D2E021600133F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08260471D2E021600133F8F /* Build configuration list for PBXNativeTarget "stanford_iOS_9_AutoLayout_Lecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08260481D2E021600133F8F /* Debug */,
+				B08260491D2E021600133F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B082604A1D2E021600133F8F /* Build configuration list for PBXNativeTarget "stanford_iOS_9_AutoLayout_LectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082604B1D2E021600133F8F /* Debug */,
+				B082604C1D2E021600133F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B082604D1D2E021600133F8F /* Build configuration list for PBXNativeTarget "stanford_iOS_9_AutoLayout_LectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082604E1D2E021600133F8F /* Debug */,
+				B082604F1D2E021600133F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B08260121D2E021500133F8F /* Project object */;
+}
